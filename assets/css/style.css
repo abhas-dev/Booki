@@ -90,6 +90,16 @@ img {
     font-size: 16px;
 }
 
+.card-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .euro {
     font-weight: 700;
 }
@@ -409,6 +419,19 @@ img {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+@media (max-width: 1315px) {
+
+    .activities_cards .card__txt {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1315px) {
+    .activities_cards .card img {
+        height: 80%;
+    }
+}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hosting-and-featured {
